@@ -4,6 +4,6 @@
 package gradlehelloworld.app
 
 object MessageUtils {
-    def getMessage(): String = "Hello      World!"
+    def getMessage: String = "Hello      World!"
 }
 

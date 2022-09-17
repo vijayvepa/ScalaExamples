@@ -49,3 +49,5 @@ Source package (default: demo):
 BUILD SUCCESSFUL
 2 actionable tasks: 2 executed
 ```
+
+- See [GradleHelloWorld](./GradleHelloWorld/README.md) for next steps
