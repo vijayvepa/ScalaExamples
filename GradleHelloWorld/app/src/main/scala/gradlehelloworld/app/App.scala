@@ -9,7 +9,7 @@ import org.apache.commons.text.WordUtils
 
 object App {
    def main(args: Array[String]): Unit = {
-        val tokens = StringUtils.split(MessageUtils.getMessage())
+        val tokens = StringUtils.split(MessageUtils.getMessage)
         val result = StringUtils.join(tokens)
         println(WordUtils.capitalize(result))
     }
