@@ -1,6 +1,6 @@
 package gradlehelloworld.classes.fpstyle.caseclasses
 
-import gradlehelloworld.classes.fpstyle.enums.{CrustSize, CrustType, Topping}
+import gradlehelloworld.classes.fpstyle.enums.{CrustSize, CrustType, Topping, Toppings}
 
 case class Pizza
 (
