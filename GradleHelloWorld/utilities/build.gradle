@@ -8,4 +8,17 @@ plugins {
 
 dependencies {
     api project(':list')
+    // https://mvnrepository.com/artifact/de.sciss/sphinx4
+    implementation 'de.sciss:sphinx4:1.0.0'
+// https://mvnrepository.com/artifact/org.yaml/snakeyaml
+    implementation 'org.yaml:snakeyaml:1.32'
+
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    implementation 'commons-io:commons-io:2.11.0'
+
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+
 }
